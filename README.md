@@ -8,46 +8,45 @@ Due to the large number of tornadoes that happen in the USA, we will concentrate
 One thing we notice from the data is that the biggest concentration of more significant tornadoes seem to occur in the southern states as opposed to the center of the US that most consider ‘Tornado Alley.’
 
 ## Instructions
-1. Go to <a href="https://brupps.github.io/project_3/">Cyclonic Cartography</a>
+1. **FIX** Go to <a href="https://brupps.github.io/project_3/">Cyclonic Cartography</a>
 2. Click on a category to see the visualizations
-3. To see the presentation slides click <a href="https://github.com/brupps/project_3/blob/main/CyclonicCartography.pdf">Presentation Slides</a>
+3. To see the presentation slides click <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/CyclonicCartography.pdf">Presentation Slides</a>
 
 ## Methodology
 1. Finding the data
-	- The national weather service had all the data we needed and we could export CSV files using our parameters. www.weather.gov.
+	- NOAA's National Weather Service had all the data we needed and we could export CSV files using our parameters. <a href="https://www.ncdc.noaa.gov/stormevents/">Storm Events Database</a>.
 
 2. Cleaning the data
 	- Due to the 500 row limit, there were three separate CSV files. The three files were combined into one. The team determined which columns were necessary and which could be dropped. There were two rows that were missing latitude and longitude data and those rows were removed. 
 
 3. Creating a database
-	- The csv file was imported into mongoDB and Python was used to clean several columns.
+	- The csv file was imported into MongoDB and Python was used to clean several columns.
 	- Pandas was then utilized to create several data frames containing summary information to be used for creating charts in the next section.
 
 4. Setting up the HTML + CSS and deploying the servers
 	- Since each visualization is contained within its own page we went through and created our own individual html and css documents (making sure to add the appropriate plugins and formatting)
 
-***Since each team member created their visualizations independently we all took different approaches with our methodologies; our independent workflows within the code itself is outlined more clearly within the js files***
+***Since each team member created their visualizations independently we all took different approaches with our methodologies; our independent workflows within the code itself is outlined more clearly within the <a href="https://github.com/brupps/Cyclonic_Cartography/tree/main/static">js files</a>***
 
 5. Creating the final index.html page
-   	- Used a website template generator then wrote the HTML code.
+   	- **FIX**
 
 
 ## Additional library, not used in class
 - **Charts.js**; allows you to create a variety of charts (bar, line, etc.) within javascript (more information in the resources section)
-- **Siter.io**; creates a website template to use 
 
 
 ## Files
 ### Static folder
 
 Contains all the javascript files the team used to create their visualizations as well as the data (json and geojson files) and css documents required to create them
-- <a href="https://github.com/brupps/project_3/blob/main/static/chartjava2.js">chartjava2.js</a>
+- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/chartjava2.js">chartjava2.js</a>
 	- Angie’s js file containing the code for the chartsJS visualizations which includes several different charts displaying different information
-- <a href="https://github.com/brupps/project_3/blob/main/static/heat.js">heat.js </a>
+- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/heat.js">heat.js </a>
 	- Barb’s js file containing the code for the heat map/ tornado alley visualization
-- <a href="https://github.com/brupps/project_3/blob/main/static/markerMap.js">markerMap.js </a>
+- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/markerMap.js">markerMap.js </a>
 	- Amanda’s js file containing the code for the marker map visualization, displaying individual tornadoes and additional data
-- <a href="https://github.com/brupps/project_3/blob/main/static/polylineMap.js">polylineMap.js </a>
+- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/polylineMap.js">polylineMap.js </a>
 	- Cassidy’s js file containing the code for the polyline visualization, demonstrating tornado paths
 - chart.cjs
 	- Part of Charts JS; provided/downloaded from the Charts JS documentation.
@@ -59,19 +58,19 @@ Contains all the javascript files the team used to create their visualizations a
 ### HTML files
 
 - **index.html**
-[Landing page](https://brupps.github.io/project_3/)
+**FIX** [Landing page](https://brupps.github.io/project_3/)
 
 - **charts2.html**
-![a screenshot of the chartsJS visualization](https://github.com/brupps/project_3/blob/main/images/charts2image.PNG)
+![a screenshot of the chartsJS visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/charts2image.PNG)
 
 - **heatindex.html**
-![a screenshot of the heat map/ tornado alley visualization](https://github.com/brupps/project_3/blob/main/images/heatIndexImage.PNG)
+![a screenshot of the heat map/ tornado alley visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/heatIndexImage.PNG)
 
 - **markerMap.html**
-![a screenshot of the marker map visualization](https://github.com/brupps/project_3/blob/main/images/markerMapImage.PNG)
+![a screenshot of the marker map visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/markerMapImage.PNG)
 
 - **polylineMap.html**
-![a screenshot of the polyline map visualization](https://github.com/brupps/project_3/blob/main/images/polylineMapImage.PNG)
+![a screenshot of the polyline map visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/polylineMapImage.PNG)
 
 ### Resources folder
 
@@ -79,11 +78,7 @@ Contains all the CSV (cleaned and uncleaned) files that were later converted int
 
 - AllStates2000-2023EF3-5 is the fully cleaned file; we cleaned (deleted unnecessary columns and missing data) and combined the other three CSVs into this one in order to include all the necessary dates
 
-### Files/ folders required for index.html landing page (+ siter.io)
-- public folder
-- src folder
-- Scott.arterbury_files folder
-- node_modules folder
+### Files/ folders required for index.html landing page
 - (individual files) .eslintrc.cjs, package.json, package-lock.json, vite.config.js
 
 ### Other Files
@@ -106,7 +101,6 @@ Our project was only exploratory in nature and not intended to influence policy 
 ## Acknowledgements
 - <a href="https://github.com/brupps">Barb Rupps</a>
 - <a href="https://github.com/angiecfoust">Angie Foust </a>
-- <a href="https://github.com/scottarterbury">Scott Arterbury</a>
 - <a href="https://github.com/cassidysimmons">Cassidy Simmons </a>
 - <a href="https://github.com/ASPigman">Amanda Pigman </a>
 
@@ -117,5 +111,7 @@ Our project was only exploratory in nature and not intended to influence policy 
 - <a href="https://www.chartjs.org/docs/latest/samples/information.html">ChartsJS </a>
 - <a href="https://geojson.io/#map=2/0/20">geoJSON editor </a>
 - <a href="https://www.accuweather.com/en/severe-weather/is-tornado-alley-shifting-east/1162839">Accuweather for tornado alley shape </a>
-- <a href="https://www.siter.io">Siter Website Template to write the HTML Landing Page</a>
+- <a href="https://csvjson.com/csv2json">CSV to JSON converter</a>
+- <a href="https://open-innovations.github.io/CSV2GeoJSON/">CSV to geoJSON converter</a>
+
 
