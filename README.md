@@ -26,7 +26,7 @@ One thing we notice from the data is that the biggest concentration of more sign
 4. Setting up the HTML + CSS and deploying the servers
 	- Since each visualization is contained within its own page we went through and created our own individual html and css documents (making sure to add the appropriate plugins and formatting)
 
-***Since each team member created their visualizations independently we all took different approaches with our methodologies; our independent workflows within the code itself is outlined more clearly within the <a href="https://github.com/brupps/Cyclonic_Cartography/tree/main/static">js files</a>***
+***Since each team member created their visualizations independently we all took different approaches with our methodologies; our independent workflows within the code itself is outlined more clearly within the <a href="https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/tree/main/static">js files</a>***
 
 5. Creating the final index.html page
    	- **FIX**
@@ -40,13 +40,13 @@ One thing we notice from the data is that the biggest concentration of more sign
 ### Static folder
 
 Contains all the javascript files the team used to create their visualizations as well as the data (json and geojson files) and css documents required to create them
-- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/chartjava2.js">chartjava2.js</a>
+- <a href="https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/static/chartjava2.js">chartjava2.js</a>
 	- Angie’s js file containing the code for the chartsJS visualizations which includes several different charts displaying different information
-- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/heat.js">heat.js </a>
+- <a href="https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/static/heat.js">heat.js </a>
 	- Barb’s js file containing the code for the heat map/ tornado alley visualization
-- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/markerMap.js">markerMap.js </a>
+- <a href="https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/static/markerMap.js">markerMap.js </a>
 	- Amanda’s js file containing the code for the marker map visualization, displaying individual tornadoes and additional data
-- <a href="https://github.com/brupps/Cyclonic_Cartography/blob/main/static/polylineMap.js">polylineMap.js </a>
+- <a href="https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/static/polylineMap.js">polylineMap.js </a>
 	- Cassidy’s js file containing the code for the polyline visualization, demonstrating tornado paths
 - chart.cjs
 	- Part of Charts JS; provided/downloaded from the Charts JS documentation.
@@ -61,16 +61,16 @@ Contains all the javascript files the team used to create their visualizations a
 **FIX** [Landing page](https://brupps.github.io/project_3/)
 
 - **charts2.html**
-![a screenshot of the chartsJS visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/charts2image.PNG)
+![a screenshot of the chartsJS visualization](https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/images/charts2image.PNG)
 
 - **heatindex.html**
-![a screenshot of the heat map/ tornado alley visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/heatIndexImage.PNG)
+![a screenshot of the heat map/ tornado alley visualization](https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/images/heatIndexImage.PNG)
 
 - **markerMap.html**
-![a screenshot of the marker map visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/markerMapImage.PNG)
+![a screenshot of the marker map visualization](https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/images/markerMapImage.PNG)
 
 - **polylineMap.html**
-![a screenshot of the polyline map visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/polylineMapImage.PNG)
+![a screenshot of the polyline map visualization](https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/images/polylineMapImage.PNG)
 
 ### Resources folder
 
