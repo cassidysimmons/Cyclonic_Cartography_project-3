@@ -29,7 +29,6 @@ One thing we notice from the data is that the biggest concentration of more sign
 ***Since each team member created their visualizations independently we all took different approaches with our methodologies; our independent workflows within the code itself is outlined more clearly within the <a href="https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/tree/main/static">js files</a>***
 
 5. Creating the final index.html page
-   	- **FIX**
 
 
 ## Additional library, not used in class
@@ -58,7 +57,7 @@ Contains all the javascript files the team used to create their visualizations a
 ### HTML files
 
 - **index.html**
-**FIX** [Landing page](https://brupps.github.io/Cyclonic_Cartography/)
+[Landing page](https://brupps.github.io/Cyclonic_Cartography/)
 
 - **charts2.html**
 ![a screenshot of the chartsJS visualization](https://github.com/cassidysimmons/Cyclonic_Cartography_project-3/blob/main/images/charts2image.PNG)
